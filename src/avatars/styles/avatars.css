@@ -1,0 +1,37 @@
+.total {
+  text-align: center;
+  width: 396px;
+  height: 195px;
+  margin: auto;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 6.75px;
+}
+
+.face1-4 {
+  margin: auto;
+  text-align: center;
+
+  /* position: relative; */
+  /* top: 11.75px; */
+  height: 97.5px;
+}
+
+.face5-8 {
+  margin: auto;
+  text-align: center;
+  /* position: relative; */
+  /* top: 10px; */
+  height: 97.5px;
+}
+
+.rect-frame {
+  margin: 10px;
+  border-radius: 50px;
+}
