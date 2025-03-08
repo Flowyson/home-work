@@ -1,3 +1,179 @@
 @import "./reset.css";
 @import "./theme.css";
 @import "./base.css";
+
+.body {
+  display: grid;
+  place-items: center; /* 가로 + 세로 중앙 정렬 */
+}
+
+/* iPad-Pro */
+
+.iPad-Pro {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("/src/apple/products/ipad_pro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-white {
+  font-size: var(--large-text);
+  font-weight: bold;
+  color: var(--white);
+  margin: var(--small-spacing);
+  padding-top: 40px;
+  /* 화면 상단 공백을 위해 40px을 줬는데 다른 방법은? */
+}
+
+.main-white {
+  font-size: var(--base-text);
+  color: var(--white);
+  margin: var(--small-spacing);
+  text-align: center;
+}
+
+.footer {
+  font-size: var(--small-text);
+  font-weight: bold;
+  color: var(--gray);
+  margin: var(--small-spacing);
+}
+
+.btn-container {
+  font-size: var(--xx-small-text);
+  margin: var(--small-spacing);
+  display: flex;
+  gap: var(--base-spacing);
+}
+
+.left-button-blue {
+  padding-left: var(--small-spacing);
+  padding-right: var(--small-spacing);
+  padding-top: var(--x-small-spacing);
+  padding-bottom: var(--x-small-spacing);
+  border-radius: 400px;
+  border: none;
+  color: var(--white);
+  background-color: var(--blue-400);
+}
+
+.right-button-blue {
+  /* padding-inline: var(--small-spacing); */
+  padding-left: var(--small-spacing);
+  padding-right: var(--small-spacing);
+  padding-top: var(--x-small-spacing);
+  padding-bottom: var(--x-small-spacing);
+  border-radius: 400px;
+  border-color: var(--blue-400);
+  border-width: 1px;
+  border-style: solid;
+  color: var(--blue-400);
+  background: transparent;
+}
+
+/* iPad-air */
+
+.iPad-air {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("/src/apple/products/ipad_air.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-black {
+  font-size: var(--large-text);
+  font-weight: bold;
+  color: var(--black);
+  margin: var(--small-spacing);
+  padding-top: 40px;
+  /* 화면 상단 공백을 위해 40px을 줬는데 다른 방법은? */
+}
+
+.main-black {
+  font-size: var(--base-text);
+  font-weight: bold;
+  color: var(--black);
+  margin: var(--small-spacing);
+  text-align: center;
+}
+
+.left-button-black {
+  padding-left: var(--small-spacing);
+  padding-right: var(--small-spacing);
+  padding-top: var(--x-small-spacing);
+  padding-bottom: var(--x-small-spacing);
+  border-radius: 400px;
+  border: none;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.right-button-black {
+  padding-left: var(--small-spacing);
+  padding-right: var(--small-spacing);
+  padding-top: var(--x-small-spacing);
+  padding-bottom: var(--x-small-spacing);
+  font-weight: 600;
+  border-radius: 400px;
+  border-color: var(--black);
+  border-width: 1.5px;
+  border-style: solid;
+  color: var(--black);
+  background: transparent;
+}
+
+.iPhone-15-Pro {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("../products/iphone15_pro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iPhone-15 {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("../products/iphone15.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.WATCH {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("../products/apple_watch.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MacBook-Air {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("../products/macbook_air.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.airPods-Pro {
+  height: var(--size);
+  place-items: center;
+
+  background-image: url("../products/airpods_pro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

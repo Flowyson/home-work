@@ -1,3 +1,84 @@
 @import "./card-component.css";
 
 /* 카드 레이아웃 */
+
+.container {
+  display: grid;
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 20px;
+  }
+}
+
+.iPad-Pro {
+  margin-top: -20px;
+
+  @media (min-width: 1024px) {
+    background-image: url("../products/ipad_pro_wide.jpeg");
+  }
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/ipad_pro_2x.jpeg");
+  }
+  @media (min-width: 1024px) and (min-resolution: 2dppx) {
+    background-image: url("../products/ipad_pro_wide_2x.jpeg");
+  }
+}
+
+.iPad-air {
+  margin-top: 20px;
+
+  @media (min-width: 1024px) {
+    background-image: url("../products/ipad_air_wide.jpeg");
+  }
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/ipad_air_2x.jpeg");
+  }
+  @media (min-width: 1024px) and (min-resolution: 2dppx) {
+    background-image: url("../products/ipad_air_wide_2x.jpeg");
+  }
+}
+
+.iPhone-15-Pro {
+  margin-top: 20px;
+
+  @media (min-width: 1024px) {
+    background-image: url("../products/iphone15_pro_wide.jpeg");
+  }
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/iphone15_pro_2x.jpeg");
+  }
+  @media (min-width: 1024px) and (min-resolution: 2dppx) {
+    background-image: url("../products/iphone15_pro_wide_2x.jpeg");
+  }
+}
+
+.iPhone-15 {
+  margin-top: 20px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/iphone15_2x.jpeg");
+  }
+}
+
+.WATCH {
+  margin-top: 20px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/apple_watch_2x.jpeg");
+  }
+}
+.MacBook-Air {
+  margin-top: 20px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/macbook_air_2x.jpeg");
+  }
+}
+.airPods-Pro {
+  margin-top: 20px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../products/airpods_pro_2x.jpeg");
+  }
+}
